@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Enter a whole number
+        System.out.print("Ingrese un número entero: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is a multiple of 100 process
+        if (number % 100 == 0) {
+            System.out.println("Es múltiplo de 100.");
+        } else {
+            System.out.println("No es múltiplo de 100.");
+}
+
+        scanner.close(); // Close the scanner}
+}
